@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="G5g-DZ-bY2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -32,9 +32,9 @@
                                             <action selector="createOrder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qeB-qk-cic"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ab-rH-Xu2">
-                                        <rect key="frame" x="166" y="81" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ab-rH-Xu2">
+                                        <rect key="frame" x="187.5" y="102" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -63,13 +63,32 @@
                             <constraint firstItem="Pmk-LW-5dr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jEY-wl-86W"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="2MG-vN-K21"/>
                     <connections>
+                        <outlet property="createOrderButton" destination="3hK-qd-Rs4" id="7Ua-hr-R9Y"/>
                         <outlet property="mapView" destination="GXz-ED-eI3" id="vnJ-dc-Pb5"/>
                         <outlet property="orderIdLabel" destination="6Ab-rH-Xu2" id="GZm-9q-Yna"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="617" y="51"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PXS-Iq-0lI">
+            <objects>
+                <navigationController id="G5g-DZ-bY2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QWL-Zt-c1i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="OAC-fb-v9B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdP-4u-qzR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-209" y="51"/>
         </scene>
     </scenes>
 </document>

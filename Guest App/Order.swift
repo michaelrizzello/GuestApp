@@ -14,6 +14,7 @@ struct Order {
     var orderID : Int = 0
     var orderLocation : OrderLocation?
     
+    
     init(orderObj : JSON)
     {
         if let orderID = Int(orderObj["orderId"].string!)

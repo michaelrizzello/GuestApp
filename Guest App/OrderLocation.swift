@@ -18,7 +18,7 @@ struct OrderLocation {
         
         if (!(locationObj["latitude"].null != nil) && !(locationObj["longitude"].null != nil))
         {
-            if let lat = locationObj["latitude"].double, let lng = locationObj["longitude"].double
+            if let lat = Double.init(locationObj["latitude"].string!), let lng = Double.init(locationObj["longitude"].string!)
             {
                 orderLocation = CLLocationCoordinate2D.init(latitude: lat, longitude: lng)
             }

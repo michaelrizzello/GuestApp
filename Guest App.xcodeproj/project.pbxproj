@@ -22,6 +22,9 @@
 		ACDF6FCB1DFB41D80090C43D /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF6FC21DFB41D80090C43D /* APIRequest.swift */; };
 		ACDF6FCC1DFB41D80090C43D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF6FC31DFB41D80090C43D /* APIManager.swift */; };
 		ACDF6FCD1DFB41D80090C43D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF6FC41DFB41D80090C43D /* Constants.swift */; };
+		ACE19C6A1DFDAFCB00AC939B /* taxi-other.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE19C671DFDAFCB00AC939B /* taxi-other.png */; };
+		ACE19C6B1DFDAFCB00AC939B /* taxi-other@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE19C681DFDAFCB00AC939B /* taxi-other@2x.png */; };
+		ACE19C6C1DFDAFCB00AC939B /* taxi-other@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE19C691DFDAFCB00AC939B /* taxi-other@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		ACDF6FC21DFB41D80090C43D /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		ACDF6FC31DFB41D80090C43D /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		ACDF6FC41DFB41D80090C43D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ACE19C671DFDAFCB00AC939B /* taxi-other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taxi-other.png"; sourceTree = "<group>"; };
+		ACE19C681DFDAFCB00AC939B /* taxi-other@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taxi-other@2x.png"; sourceTree = "<group>"; };
+		ACE19C691DFDAFCB00AC939B /* taxi-other@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taxi-other@3x.png"; sourceTree = "<group>"; };
 		B74E8EE4BF2EF30CDD45A66E /* Pods_Guest_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guest_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54AC514435C79C3F046D246 /* Pods-Guest App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guest App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guest App/Pods-Guest App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +102,7 @@
 		ACDF6FA91DFB41BA0090C43D /* Guest App */ = {
 			isa = PBXGroup;
 			children = (
+				ACE19C661DFDAFC000AC939B /* Assets */,
 				ACDF6FCE1DFB41DE0090C43D /* Foundation */,
 				ACDF6FAA1DFB41BA0090C43D /* AppDelegate.swift */,
 				ACDF6FAC1DFB41BA0090C43D /* ViewController.swift */,
@@ -153,6 +160,16 @@
 				ACDF6FBD1DFB41D80090C43D /* CustomAnnotation.swift */,
 			);
 			name = "Custom Widgets";
+			sourceTree = "<group>";
+		};
+		ACE19C661DFDAFC000AC939B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ACE19C681DFDAFCB00AC939B /* taxi-other@2x.png */,
+				ACE19C671DFDAFCB00AC939B /* taxi-other.png */,
+				ACE19C691DFDAFCB00AC939B /* taxi-other@3x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +237,10 @@
 			files = (
 				ACDF6FB51DFB41BA0090C43D /* LaunchScreen.storyboard in Resources */,
 				ACDF6FB21DFB41BA0090C43D /* Assets.xcassets in Resources */,
+				ACE19C6C1DFDAFCB00AC939B /* taxi-other@3x.png in Resources */,
+				ACE19C6A1DFDAFCB00AC939B /* taxi-other.png in Resources */,
 				ACDF6FB01DFB41BA0090C43D /* Main.storyboard in Resources */,
+				ACE19C6B1DFDAFCB00AC939B /* taxi-other@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
